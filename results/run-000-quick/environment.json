@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "cargo_profile_release": "opt-level 3, codegen-units 1, lto false, debug false (Cargo.toml)",
+  "clock": "std::time::Instant (monotonic wall clock)",
+  "cpu": "AMD Ryzen 5 7600X 6-Core Processor",
+  "debug": "false",
+  "debug_assertions": false,
+  "kernel": "source = \"git+https://github.com/Relational-Relativity-Corporation/abr-kernel?rev=1c1ef70a69b3175a2df0458d0ebf1f71475a3d62#1c1ef70a69b3175a2df0458d0ebf1f71475a3d62\"",
+  "kernel_statement": "canonical Kernel V9, abr-kernel at the pinned commit, unmodified",
+  "logical_cpus": 12,
+  "opt_level": "3",
+  "os": "windows",
+  "physical_memory": "33378181120",
+  "profile": "release",
+  "quick": true,
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14); binary: rustc; commit-hash: 8bab26f4f68e0e26f0bb7960be334d5b520ea452; commit-date: 2026-07-14; host: x86_64-pc-windows-msvc; release: 1.97.1; LLVM version: 22.1.6",
+  "target": "x86_64-pc-windows-msvc",
+  "threads": "single-threaded measurement",
+  "warmup_procedure": "1 discarded runs, then 3 measured runs (field_at over a long fixture: 0 + 1); medians and quartiles reported"
+}

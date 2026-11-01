@@ -1,0 +1,11 @@
+short-dense-unchanged (500 frames, 2500 observations)
+short-dense-changing (500 frames, 2500 observations)
+short-sparse-unchanged (500 frames, 306 observations)
+short-sparse-changing (500 frames, 306 observations)
+long-dense-unchanged (5000 frames, 25000 observations)
+long-dense-changing (5000 frames, 25000 observations)
+long-sparse-unchanged (5000 frames, 3154 observations)
+long-sparse-changing (5000 frames, 3154 observations)
+9636a307bc423beab8b4d05c7487bfe15f6635e735769f1346f8916c27771f19  environment.json
+95da7c6232bad409a719c173f0f0caa08911b5335b37d6aaae88d1078049a8d0  results.json
+beb0a47d5324ff2bb3a85a8df804d136ac9c23af40487f8d2b0e13adb8e0942f  results.md

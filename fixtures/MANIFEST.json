@@ -1,0 +1,94 @@
+{
+  "fixtures": [
+    {
+      "binary64_content_id": "cafcebdca99a7737dcf73d694eb1be47b9378e523d704ad45c51fd5590b4d449",
+      "committed": true,
+      "dynamics": "Unchanged",
+      "exact_content_id": "6e7c82affeca28f9531abf5d1e983593d9c5bc1d8d50019d2b63af39955913cd",
+      "frames": 500,
+      "name": "short-dense-unchanged",
+      "observations": 2500,
+      "sampling": "Dense",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "c9994308df591f886f12fae69818437155242dbc728aee4d40e88af1050ccd2e",
+      "committed": true,
+      "dynamics": "Changing",
+      "exact_content_id": "998c828ed8205925774f1bffa382b3cc1c9ac89780e2ca275983ff2c4f642509",
+      "frames": 500,
+      "name": "short-dense-changing",
+      "observations": 2500,
+      "sampling": "Dense",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "3b013bae4586d5b730ad76e99b7ae2765ddc98f560eb23ce8b70764a93d118d4",
+      "committed": true,
+      "dynamics": "Unchanged",
+      "exact_content_id": "8c5bddb372715281d3d7e59a41319b0938c2b756cd2cbead7ae9bb8c617e58a1",
+      "frames": 500,
+      "name": "short-sparse-unchanged",
+      "observations": 306,
+      "sampling": "Sparse",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "2120e492c176ccc53be00c3e99615217a3b9220e3b38500e85f08d99140f5cd9",
+      "committed": true,
+      "dynamics": "Changing",
+      "exact_content_id": "46fdb09d7e47bf5064c6b7e53fd8d16a1506190ee690ffda31e6bd46aa9ec94e",
+      "frames": 500,
+      "name": "short-sparse-changing",
+      "observations": 306,
+      "sampling": "Sparse",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "9c52fad887afc18bdeed32c965b5ded139a35333bd9f06bc644eec8d14713f2c",
+      "committed": false,
+      "dynamics": "Unchanged",
+      "exact_content_id": "ea427d1a9f571bd4c099c473babcc88135fe222d8aeb4241be9023704df60ecd",
+      "frames": 5000,
+      "name": "long-dense-unchanged",
+      "observations": 25000,
+      "sampling": "Dense",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "d9feacf1b93ba24a800d24a2ec53f8d2d510b418946ad239f33c61a0c898eb66",
+      "committed": false,
+      "dynamics": "Changing",
+      "exact_content_id": "20053dac888be2cf911fbfd6c495ac010dad8caf1e6f03a79952adab1f0fb331",
+      "frames": 5000,
+      "name": "long-dense-changing",
+      "observations": 25000,
+      "sampling": "Dense",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "2f1f101cb1ac9702a8598bc3404caddb4951736b69577c482950fe7d50eb786b",
+      "committed": false,
+      "dynamics": "Unchanged",
+      "exact_content_id": "327492a5bf81b2d9bbe717294d0b38b972ded942d69ff5dab4ac008a67bd9a73",
+      "frames": 5000,
+      "name": "long-sparse-unchanged",
+      "observations": 3154,
+      "sampling": "Sparse",
+      "seed": 1592590337
+    },
+    {
+      "binary64_content_id": "394a55decec868fa97ea06a3eee2a320621328ad1298aa09439a6a925c8a6bb3",
+      "committed": false,
+      "dynamics": "Changing",
+      "exact_content_id": "071c0f658a7c58640f9ab085f0186fc49d005778b22be85ee9a9b7baadb0e04f",
+      "frames": 5000,
+      "name": "long-sparse-changing",
+      "observations": 3154,
+      "sampling": "Sparse",
+      "seed": 1592590337
+    }
+  ],
+  "generator": "src/fixtures.rs (deterministic, integer arithmetic only)",
+  "label": "SIMULATED synthetic fixtures -- not empirical evidence"
+}

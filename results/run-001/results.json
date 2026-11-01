@@ -1,0 +1,3477 @@
+{
+  "b1_representation": [
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 38312,
+        "content_id": "cafcebdca99a7737dcf73d694eb1be47b9378e523d704ad45c51fd5590b4d449",
+        "content_id_time": {
+          "mad_us": 33.099999999999966,
+          "max_us": 612.8000000000001,
+          "median_us": 524.3,
+          "min_us": 478.7,
+          "p25_us": 491.2,
+          "p75_us": 553.0999999999999,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 3.799999999999983,
+          "max_us": 227.1,
+          "median_us": 176.89999999999998,
+          "min_us": 172.39999999999998,
+          "p25_us": 173.7,
+          "p75_us": 198.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 535679,
+          "peak_extra_bytes": 518710,
+          "retained_bytes": 518710
+        },
+        "pretty_bytes": 80053,
+        "serialize": {
+          "mad_us": 0.19999999999999574,
+          "max_us": 104.1,
+          "median_us": 44.9,
+          "min_us": 44.7,
+          "p25_us": 44.8,
+          "p75_us": 45.4,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 48278,
+        "content_id": "6e7c82affeca28f9531abf5d1e983593d9c5bc1d8d50019d2b63af39955913cd",
+        "content_id_time": {
+          "mad_us": 38.90000000000009,
+          "max_us": 842.7,
+          "median_us": 602.2,
+          "min_us": 544.3,
+          "p25_us": 563.3,
+          "p75_us": 640.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 21.399999999999977,
+          "max_us": 709.8000000000001,
+          "median_us": 503.4,
+          "min_us": 476.7,
+          "p25_us": 484.90000000000003,
+          "p75_us": 541.8000000000001,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 651645,
+          "peak_extra_bytes": 578692,
+          "retained_bytes": 578676
+        },
+        "pretty_bytes": 90019,
+        "serialize": {
+          "mad_us": 0.10000000000000142,
+          "max_us": 76.9,
+          "median_us": 33.699999999999996,
+          "min_us": 33.5,
+          "p25_us": 33.599999999999994,
+          "p75_us": 34.0,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "short-dense-unchanged",
+      "per_value_ns": {
+        "binary64_copy": 0.4,
+        "exact_deep_copy": 34.16,
+        "exact_shared_clone": 8.0,
+        "exact_to_f64_cached": 1.2799999999999998,
+        "exact_to_f64_uncached": 32.28,
+        "values": 2500
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 1500,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 1500,
+        "max_relative_difference": 5.551115123125783e-17,
+        "observations": 2500,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 44330,
+        "content_id": "c9994308df591f886f12fae69818437155242dbc728aee4d40e88af1050ccd2e",
+        "content_id_time": {
+          "mad_us": 22.0,
+          "max_us": 713.4,
+          "median_us": 625.8000000000001,
+          "min_us": 516.1,
+          "p25_us": 603.8000000000001,
+          "p75_us": 641.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 47.400000000000034,
+          "max_us": 392.8,
+          "median_us": 293.20000000000005,
+          "min_us": 199.0,
+          "p25_us": 225.6,
+          "p75_us": 328.3,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 535676,
+          "peak_extra_bytes": 518707,
+          "retained_bytes": 518707
+        },
+        "pretty_bytes": 86071,
+        "serialize": {
+          "mad_us": 13.299999999999997,
+          "max_us": 197.9,
+          "median_us": 94.4,
+          "min_us": 80.0,
+          "p25_us": 80.8,
+          "p75_us": 103.4,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 49455,
+        "content_id": "998c828ed8205925774f1bffa382b3cc1c9ac89780e2ca275983ff2c4f642509",
+        "content_id_time": {
+          "mad_us": 52.60000000000002,
+          "max_us": 726.3000000000001,
+          "median_us": 594.9,
+          "min_us": 488.3,
+          "p25_us": 551.7,
+          "p75_us": 654.4,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 40.299999999999955,
+          "max_us": 893.0,
+          "median_us": 799.3,
+          "min_us": 613.5,
+          "p25_us": 761.1,
+          "p75_us": 839.8000000000001,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 651642,
+          "peak_extra_bytes": 578689,
+          "retained_bytes": 578673
+        },
+        "pretty_bytes": 91196,
+        "serialize": {
+          "mad_us": 0.20000000000000995,
+          "max_us": 58.199999999999996,
+          "median_us": 43.900000000000006,
+          "min_us": 43.6,
+          "p25_us": 43.800000000000004,
+          "p75_us": 45.0,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "short-dense-changing",
+      "per_value_ns": {
+        "binary64_copy": 0.35999999999999993,
+        "exact_deep_copy": 32.8,
+        "exact_shared_clone": 7.6,
+        "exact_to_f64_cached": 1.1600000000000001,
+        "exact_to_f64_uncached": 69.32,
+        "values": 2500
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 1983,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 1983,
+        "max_relative_difference": 1.1002409994287267e-16,
+        "observations": 2500,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 19268,
+        "content_id": "3b013bae4586d5b730ad76e99b7ae2765ddc98f560eb23ce8b70764a93d118d4",
+        "content_id_time": {
+          "mad_us": 13.0,
+          "max_us": 218.9,
+          "median_us": 130.0,
+          "min_us": 116.2,
+          "p25_us": 119.0,
+          "p75_us": 144.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 5.400000000000006,
+          "max_us": 216.1,
+          "median_us": 71.5,
+          "min_us": 53.0,
+          "p25_us": 66.2,
+          "p75_us": 89.4,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 269841,
+          "peak_extra_bytes": 252872,
+          "retained_bytes": 252872
+        },
+        "pretty_bytes": 37221,
+        "serialize": {
+          "mad_us": 2.099999999999998,
+          "max_us": 48.0,
+          "median_us": 18.2,
+          "min_us": 13.5,
+          "p25_us": 14.7,
+          "p75_us": 19.9,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 20439,
+        "content_id": "8c5bddb372715281d3d7e59a41319b0938c2b756cd2cbead7ae9bb8c617e58a1",
+        "content_id_time": {
+          "mad_us": 26.899999999999977,
+          "max_us": 337.0,
+          "median_us": 232.5,
+          "min_us": 136.5,
+          "p25_us": 200.7,
+          "p75_us": 252.70000000000002,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 9.000000000000014,
+          "max_us": 228.5,
+          "median_us": 95.69999999999999,
+          "min_us": 86.19999999999999,
+          "p25_us": 90.3,
+          "p75_us": 127.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 283975,
+          "peak_extra_bytes": 260182,
+          "retained_bytes": 260182
+        },
+        "pretty_bytes": 38392,
+        "serialize": {
+          "mad_us": 0.1999999999999993,
+          "max_us": 15.6,
+          "median_us": 12.799999999999999,
+          "min_us": 12.6,
+          "p25_us": 12.799999999999999,
+          "p75_us": 13.9,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "short-sparse-unchanged",
+      "per_value_ns": {
+        "binary64_copy": 0.65359477124183,
+        "exact_deep_copy": 40.52287581699346,
+        "exact_shared_clone": 8.823529411764707,
+        "exact_to_f64_cached": 1.30718954248366,
+        "exact_to_f64_uncached": 39.54248366013072,
+        "values": 306
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 172,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 172,
+        "max_relative_difference": 5.551115123125783e-17,
+        "observations": 306,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 19925,
+        "content_id": "2120e492c176ccc53be00c3e99615217a3b9220e3b38500e85f08d99140f5cd9",
+        "content_id_time": {
+          "mad_us": 9.700000000000003,
+          "max_us": 220.39999999999998,
+          "median_us": 129.4,
+          "min_us": 119.3,
+          "p25_us": 123.8,
+          "p75_us": 148.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 5.300000000000004,
+          "max_us": 165.5,
+          "median_us": 67.5,
+          "min_us": 53.8,
+          "p25_us": 65.9,
+          "p75_us": 77.5,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 269838,
+          "peak_extra_bytes": 252869,
+          "retained_bytes": 252869
+        },
+        "pretty_bytes": 37878,
+        "serialize": {
+          "mad_us": 3.8999999999999986,
+          "max_us": 57.1,
+          "median_us": 25.700000000000003,
+          "min_us": 19.5,
+          "p25_us": 20.9,
+          "p75_us": 28.4,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 20524,
+        "content_id": "46fdb09d7e47bf5064c6b7e53fd8d16a1506190ee690ffda31e6bd46aa9ec94e",
+        "content_id_time": {
+          "mad_us": 31.200000000000017,
+          "max_us": 312.0,
+          "median_us": 166.2,
+          "min_us": 124.9,
+          "p25_us": 157.89999999999998,
+          "p75_us": 227.4,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 11.999999999999986,
+          "max_us": 181.20000000000002,
+          "median_us": 120.7,
+          "min_us": 92.6,
+          "p25_us": 115.19999999999999,
+          "p75_us": 142.7,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 283972,
+          "peak_extra_bytes": 260179,
+          "retained_bytes": 260179
+        },
+        "pretty_bytes": 38477,
+        "serialize": {
+          "mad_us": 0.7000000000000028,
+          "max_us": 30.2,
+          "median_us": 17.8,
+          "min_us": 16.5,
+          "p25_us": 17.099999999999998,
+          "p75_us": 18.2,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "short-sparse-changing",
+      "per_value_ns": {
+        "binary64_copy": 0.326797385620915,
+        "exact_deep_copy": 40.849673202614376,
+        "exact_shared_clone": 6.862745098039214,
+        "exact_to_f64_cached": 1.30718954248366,
+        "exact_to_f64_uncached": 65.359477124183,
+        "values": 306
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 236,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 236,
+        "max_relative_difference": 9.798409612350135e-17,
+        "observations": 306,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 379812,
+        "content_id": "9c52fad887afc18bdeed32c965b5ded139a35333bd9f06bc644eec8d14713f2c",
+        "content_id_time": {
+          "mad_us": 397.89999999999964,
+          "max_us": 7768.299999999999,
+          "median_us": 6485.0,
+          "min_us": 5666.6,
+          "p25_us": 6151.0,
+          "p75_us": 6943.2,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 175.00000000000045,
+          "max_us": 4705.9,
+          "median_us": 3861.9,
+          "min_us": 3001.9,
+          "p25_us": 3735.5,
+          "p75_us": 4043.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 5531698,
+          "peak_extra_bytes": 5268969,
+          "retained_bytes": 5268969
+        },
+        "pretty_bytes": 795053,
+        "serialize": {
+          "mad_us": 32.999999999999886,
+          "max_us": 906.3,
+          "median_us": 576.6,
+          "min_us": 448.6,
+          "p25_us": 509.40000000000003,
+          "p75_us": 594.3,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 479778,
+        "content_id": "ea427d1a9f571bd4c099c473babcc88135fe222d8aeb4241be9023704df60ecd",
+        "content_id_time": {
+          "mad_us": 385.2000000000007,
+          "max_us": 8030.900000000001,
+          "median_us": 7135.9,
+          "min_us": 5558.2,
+          "p25_us": 6762.200000000001,
+          "p75_us": 7585.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 436.10000000000036,
+          "max_us": 7773.5,
+          "median_us": 6109.200000000001,
+          "min_us": 5554.599999999999,
+          "p25_us": 5760.3,
+          "p75_us": 7445.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 6691664,
+          "peak_extra_bytes": 5868951,
+          "retained_bytes": 5868935
+        },
+        "pretty_bytes": 895019,
+        "serialize": {
+          "mad_us": 39.299999999999955,
+          "max_us": 613.0,
+          "median_us": 424.3,
+          "min_us": 365.9,
+          "p25_us": 394.09999999999997,
+          "p75_us": 466.3,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "long-dense-unchanged",
+      "per_value_ns": {
+        "binary64_copy": 0.46,
+        "exact_deep_copy": 36.592,
+        "exact_shared_clone": 9.74,
+        "exact_to_f64_cached": 0.94,
+        "exact_to_f64_uncached": 35.104,
+        "values": 25000
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 15000,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 15000,
+        "max_relative_difference": 5.551115123125783e-17,
+        "observations": 25000,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 443190,
+        "content_id": "d9feacf1b93ba24a800d24a2ec53f8d2d510b418946ad239f33c61a0c898eb66",
+        "content_id_time": {
+          "mad_us": 123.5,
+          "max_us": 4608.5,
+          "median_us": 4096.5,
+          "min_us": 3756.2,
+          "p25_us": 3952.8,
+          "p75_us": 4162.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 88.90000000000009,
+          "max_us": 2421.6,
+          "median_us": 2197.0,
+          "min_us": 2004.9,
+          "p25_us": 2099.4,
+          "p75_us": 2282.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 5531695,
+          "peak_extra_bytes": 5268966,
+          "retained_bytes": 5268966
+        },
+        "pretty_bytes": 858431,
+        "serialize": {
+          "mad_us": 67.20000000000005,
+          "max_us": 1114.9,
+          "median_us": 931.7,
+          "min_us": 844.6999999999999,
+          "p25_us": 883.4,
+          "p75_us": 1030.3999999999999,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 494298,
+        "content_id": "20053dac888be2cf911fbfd6c495ac010dad8caf1e6f03a79952adab1f0fb331",
+        "content_id_time": {
+          "mad_us": 193.59999999999945,
+          "max_us": 6172.6,
+          "median_us": 4689.7,
+          "min_us": 4179.5,
+          "p25_us": 4503.1,
+          "p75_us": 4899.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 256.8000000000002,
+          "max_us": 7173.599999999999,
+          "median_us": 6501.8,
+          "min_us": 6017.200000000001,
+          "p25_us": 6290.4,
+          "p75_us": 6758.6,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 6691661,
+          "peak_extra_bytes": 5868948,
+          "retained_bytes": 5868932
+        },
+        "pretty_bytes": 909539,
+        "serialize": {
+          "mad_us": 53.99999999999994,
+          "max_us": 1201.5,
+          "median_us": 437.1,
+          "min_us": 345.2,
+          "p25_us": 380.0,
+          "p75_us": 467.5,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "long-dense-changing",
+      "per_value_ns": {
+        "binary64_copy": 0.38800000000000007,
+        "exact_deep_copy": 37.112,
+        "exact_shared_clone": 9.128,
+        "exact_to_f64_cached": 1.1680000000000001,
+        "exact_to_f64_uncached": 69.72,
+        "values": 25000
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 19804,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 19804,
+        "max_relative_difference": 1.1002409994287267e-16,
+        "observations": 25000,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 190149,
+        "content_id": "2f1f101cb1ac9702a8598bc3404caddb4951736b69577c482950fe7d50eb786b",
+        "content_id_time": {
+          "mad_us": 91.99999999999977,
+          "max_us": 2325.9,
+          "median_us": 1451.1000000000001,
+          "min_us": 1266.2,
+          "p25_us": 1423.1999999999998,
+          "p75_us": 1543.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 34.60000000000002,
+          "max_us": 730.7,
+          "median_us": 621.6,
+          "min_us": 557.9,
+          "p25_us": 584.3000000000001,
+          "p75_us": 650.3000000000001,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 2964793,
+          "peak_extra_bytes": 2702064,
+          "retained_bytes": 2702064
+        },
+        "pretty_bytes": 369094,
+        "serialize": {
+          "mad_us": 17.600000000000023,
+          "max_us": 381.0,
+          "median_us": 187.70000000000002,
+          "min_us": 170.1,
+          "p25_us": 171.6,
+          "p75_us": 224.5,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 202885,
+        "content_id": "327492a5bf81b2d9bbe717294d0b38b972ded942d69ff5dab4ac008a67bd9a73",
+        "content_id_time": {
+          "mad_us": 115.20000000000005,
+          "max_us": 2394.9,
+          "median_us": 1561.0,
+          "min_us": 1376.7,
+          "p25_us": 1440.8999999999999,
+          "p75_us": 1635.5,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 53.09999999999991,
+          "max_us": 1340.7,
+          "median_us": 1065.3,
+          "min_us": 965.6,
+          "p25_us": 1012.2,
+          "p75_us": 1106.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 3111351,
+          "peak_extra_bytes": 2777726,
+          "retained_bytes": 2777726
+        },
+        "pretty_bytes": 381830,
+        "serialize": {
+          "mad_us": 7.399999999999977,
+          "max_us": 281.0,
+          "median_us": 182.8,
+          "min_us": 162.5,
+          "p25_us": 179.0,
+          "p75_us": 196.1,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "long-sparse-unchanged",
+      "per_value_ns": {
+        "binary64_copy": 0.3804692454026633,
+        "exact_deep_copy": 34.654407102092584,
+        "exact_shared_clone": 7.863031071655041,
+        "exact_to_f64_cached": 0.9194673430564364,
+        "exact_to_f64_uncached": 34.400760938490805,
+        "values": 3154
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 1904,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 1904,
+        "max_relative_difference": 5.551115123125783e-17,
+        "observations": 3154,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    },
+    {
+      "binary64": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 197523,
+        "content_id": "394a55decec868fa97ea06a3eee2a320621328ad1298aa09439a6a925c8a6bb3",
+        "content_id_time": {
+          "mad_us": 81.20000000000005,
+          "max_us": 2576.3,
+          "median_us": 1528.8000000000002,
+          "min_us": 1312.4,
+          "p25_us": 1450.7,
+          "p75_us": 1619.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 53.799999999999955,
+          "max_us": 839.6999999999999,
+          "median_us": 629.3,
+          "min_us": 552.1999999999999,
+          "p25_us": 607.6999999999999,
+          "p75_us": 718.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 2964790,
+          "peak_extra_bytes": 2702061,
+          "retained_bytes": 2702061
+        },
+        "pretty_bytes": 376468,
+        "serialize": {
+          "mad_us": 17.599999999999966,
+          "max_us": 324.0,
+          "median_us": 246.7,
+          "min_us": 218.9,
+          "p25_us": 226.2,
+          "p75_us": 263.0,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "exact": {
+        "byte_stable_reserialization": true,
+        "compact_bytes": 204035,
+        "content_id": "071c0f658a7c58640f9ab085f0186fc49d005778b22be85ee9a9b7baadb0e04f",
+        "content_id_time": {
+          "mad_us": 75.79999999999995,
+          "max_us": 1727.5,
+          "median_us": 1486.7,
+          "min_us": 1359.9,
+          "p25_us": 1424.2,
+          "p75_us": 1565.6000000000001,
+          "reps": 21,
+          "warmup": 3
+        },
+        "identity_stable_after_write_read": true,
+        "parse": {
+          "mad_us": 94.29999999999995,
+          "max_us": 1547.5,
+          "median_us": 1231.7,
+          "min_us": 999.0000000000001,
+          "p25_us": 1122.8,
+          "p75_us": 1308.7,
+          "reps": 21,
+          "warmup": 3
+        },
+        "parse_allocation": {
+          "allocated_bytes": 3111348,
+          "peak_extra_bytes": 2777723,
+          "retained_bytes": 2777723
+        },
+        "pretty_bytes": 382980,
+        "serialize": {
+          "mad_us": 13.899999999999977,
+          "max_us": 262.5,
+          "median_us": 160.5,
+          "min_us": 141.29999999999998,
+          "p25_us": 150.29999999999998,
+          "p75_us": 177.2,
+          "reps": 21,
+          "warmup": 3
+        }
+      },
+      "fixture": "long-sparse-changing",
+      "per_value_ns": {
+        "binary64_copy": 0.3804692454026633,
+        "exact_deep_copy": 40.01268230818009,
+        "exact_shared_clone": 7.577679137603045,
+        "exact_to_f64_cached": 1.173113506658212,
+        "exact_to_f64_uncached": 61.350665821179454,
+        "values": 3154
+      },
+      "precision": {
+        "binary64_record_values_differing_from_recorded_decimal": 2533,
+        "exact_record_values_differing_from_recorded_decimal": 0,
+        "kernel_boundary_conversions_with_loss_exact_record": 2533,
+        "max_relative_difference": 9.798409612350135e-17,
+        "observations": 3154,
+        "statement": "the binary64 record carries the rounding loss in the record itself; the exact record carries the recorded value and incurs the same loss only at the kernel boundary, where it is computed exactly"
+      }
+    }
+  ],
+  "b2_field_reconstruction": [
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 1799250,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 253.59999999999854,
+          "max_us": 28580.3,
+          "median_us": 27577.3,
+          "min_us": 26926.0,
+          "p25_us": 27330.0,
+          "p75_us": 27830.899999999998,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 698344,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 15.900000000000006,
+          "max_us": 382.5,
+          "median_us": 218.0,
+          "min_us": 202.1,
+          "p25_us": 211.9,
+          "p75_us": 255.39999999999998,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "speedup_median": 126.50137614678899
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 16829250,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 752.6999999999971,
+          "max_us": 69885.4,
+          "median_us": 67977.7,
+          "min_us": 66653.1,
+          "p25_us": 67127.0,
+          "p75_us": 68611.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 758344,
+          "peak_extra_bytes": 753853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 79.80000000000007,
+          "max_us": 850.0,
+          "median_us": 629.4,
+          "min_us": 493.19999999999993,
+          "p25_us": 578.5,
+          "p75_us": 731.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "speedup_median": 108.0039720368605
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 1799250,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 396.0,
+          "max_us": 35794.399999999994,
+          "median_us": 34045.4,
+          "min_us": 33027.1,
+          "p25_us": 33823.899999999994,
+          "p75_us": 34601.5,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 698344,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 31.59999999999991,
+          "max_us": 627.9,
+          "median_us": 514.3,
+          "min_us": 442.79999999999995,
+          "p25_us": 482.70000000000005,
+          "p75_us": 544.5,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "speedup_median": 66.19755006805367
+      },
+      "fixture": "short-dense-unchanged",
+      "kernel_over_all_frames": {
+        "mad_us": 54.799999999999955,
+        "max_us": 758.4,
+        "median_us": 639.2,
+        "min_us": 550.6,
+        "p25_us": 590.7,
+        "p75_us": 694.0,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 1799250,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 433.09999999999854,
+          "max_us": 28449.8,
+          "median_us": 27570.1,
+          "min_us": 26719.1,
+          "p25_us": 27292.3,
+          "p75_us": 28040.800000000003,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 698344,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 9.899999999999977,
+          "max_us": 295.79999999999995,
+          "median_us": 210.39999999999998,
+          "min_us": 196.8,
+          "p25_us": 200.5,
+          "p75_us": 219.4,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "23992eb9777489b777e1dd58421c2a519dea69f3a5521fbd789ed8f410671063",
+        "speedup_median": 131.03659695817493
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 16829250,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 758.6999999999971,
+          "max_us": 91875.6,
+          "median_us": 88344.5,
+          "min_us": 85324.6,
+          "p25_us": 87600.6,
+          "p75_us": 89291.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 758344,
+          "peak_extra_bytes": 753853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 47.10000000000002,
+          "max_us": 615.8,
+          "median_us": 488.90000000000003,
+          "min_us": 434.8,
+          "p25_us": 454.8,
+          "p75_us": 574.9000000000001,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "23992eb9777489b777e1dd58421c2a519dea69f3a5521fbd789ed8f410671063",
+        "speedup_median": 180.7005522601759
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 1799250,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 472.1000000000058,
+          "max_us": 47998.399999999994,
+          "median_us": 33585.799999999996,
+          "min_us": 32786.1,
+          "p25_us": 33276.7,
+          "p75_us": 34699.7,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 698344,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 22.000000000000057,
+          "max_us": 332.0,
+          "median_us": 286.59999999999997,
+          "min_us": 246.79999999999998,
+          "p25_us": 259.40000000000003,
+          "p75_us": 307.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "23992eb9777489b777e1dd58421c2a519dea69f3a5521fbd789ed8f410671063",
+        "speedup_median": 117.18702023726448
+      },
+      "fixture": "short-dense-changing",
+      "kernel_over_all_frames": {
+        "mad_us": 55.5,
+        "max_us": 838.0,
+        "median_us": 639.0,
+        "min_us": 556.0,
+        "p25_us": 594.9,
+        "p75_us": 703.9,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 820340,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 139.80000000000064,
+          "max_us": 4340.5,
+          "median_us": 3986.8000000000006,
+          "min_us": 3767.2000000000003,
+          "p25_us": 3894.1000000000004,
+          "p75_us": 4146.2,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 694391,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 3.299999999999997,
+          "max_us": 165.20000000000002,
+          "median_us": 116.2,
+          "min_us": 109.8,
+          "p25_us": 113.6,
+          "p75_us": 137.89999999999998,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "speedup_median": 34.30981067125646
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 2816996,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 220.8000000000011,
+          "max_us": 10751.1,
+          "median_us": 9512.3,
+          "min_us": 8966.2,
+          "p25_us": 9316.7,
+          "p75_us": 9733.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 701735,
+          "peak_extra_bytes": 701197,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 17.69999999999999,
+          "max_us": 215.2,
+          "median_us": 190.4,
+          "min_us": 149.6,
+          "p25_us": 151.9,
+          "p75_us": 201.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "speedup_median": 49.959558823529406
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 820340,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 199.09999999999945,
+          "max_us": 5241.599999999999,
+          "median_us": 4934.799999999999,
+          "min_us": 4425.1,
+          "p25_us": 4732.1,
+          "p75_us": 5027.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 694391,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 11.499999999999972,
+          "max_us": 263.2,
+          "median_us": 180.9,
+          "min_us": 143.6,
+          "p25_us": 173.1,
+          "p75_us": 192.39999999999998,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "speedup_median": 27.27915975677169
+      },
+      "fixture": "short-sparse-unchanged",
+      "kernel_over_all_frames": {
+        "mad_us": 32.0,
+        "max_us": 764.6,
+        "median_us": 613.1,
+        "min_us": 558.4,
+        "p25_us": 581.7,
+        "p75_us": 645.1,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 820340,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 116.90000000000055,
+          "max_us": 4354.3,
+          "median_us": 4109.8,
+          "min_us": 3703.4,
+          "p25_us": 3949.3,
+          "p75_us": 4197.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 694391,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 11.799999999999997,
+          "max_us": 179.70000000000002,
+          "median_us": 121.6,
+          "min_us": 109.8,
+          "p25_us": 110.5,
+          "p75_us": 145.7,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "2880d91501878e56f27b6bb54fb2f7e043678ea4fe07c16c3eb6c7874ca4936f",
+        "speedup_median": 33.797697368421055
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 2816996,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 275.5,
+          "max_us": 12398.0,
+          "median_us": 11475.7,
+          "min_us": 11068.8,
+          "p25_us": 11221.2,
+          "p75_us": 11769.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 701735,
+          "peak_extra_bytes": 701197,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 9.499999999999972,
+          "max_us": 236.8,
+          "median_us": 168.2,
+          "min_us": 157.5,
+          "p25_us": 158.9,
+          "p75_us": 177.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "2880d91501878e56f27b6bb54fb2f7e043678ea4fe07c16c3eb6c7874ca4936f",
+        "speedup_median": 68.22651605231867
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 820340,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 143.60000000000036,
+          "max_us": 5172.7,
+          "median_us": 4760.2,
+          "min_us": 4542.6,
+          "p25_us": 4689.5,
+          "p75_us": 4949.099999999999,
+          "reps": 21,
+          "warmup": 3
+        },
+        "fields_allocation": {
+          "allocated_bytes": 694391,
+          "peak_extra_bytes": 693853,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 11.399999999999977,
+          "max_us": 269.7,
+          "median_us": 159.0,
+          "min_us": 144.3,
+          "p25_us": 149.5,
+          "p75_us": 185.4,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 500,
+        "kernel_digest": "2880d91501878e56f27b6bb54fb2f7e043678ea4fe07c16c3eb6c7874ca4936f",
+        "speedup_median": 29.938364779874213
+      },
+      "fixture": "short-sparse-changing",
+      "kernel_over_all_frames": {
+        "mad_us": 33.80000000000007,
+        "max_us": 739.3000000000001,
+        "median_us": 650.4,
+        "min_us": 577.0,
+        "p25_us": 628.1,
+        "p75_us": 688.7,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 119242500,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 12049.299999999814,
+          "max_us": 2905532.9,
+          "median_us": 2893483.6,
+          "min_us": 2871839.5,
+          "p25_us": 2877042.1,
+          "p75_us": 2897439.5,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6971344,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 345.2000000000003,
+          "max_us": 5234.3,
+          "median_us": 3320.2000000000003,
+          "min_us": 2730.2,
+          "p25_us": 3056.0,
+          "p75_us": 3807.8,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "speedup_median": 871.478706102042
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 1619542500,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 16297.899999999441,
+          "max_us": 7149309.2,
+          "median_us": 7112196.4,
+          "min_us": 7069943.699999999,
+          "p25_us": 7111682.5,
+          "p75_us": 7128494.3,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 7571344,
+          "peak_extra_bytes": 7526353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 270.7000000000007,
+          "max_us": 6841.200000000001,
+          "median_us": 5539.5,
+          "min_us": 5081.2,
+          "p25_us": 5306.3,
+          "p75_us": 5967.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "speedup_median": 1283.9058398772454
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 119242500,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 3809.2000000001863,
+          "max_us": 3519495.9,
+          "median_us": 3506986.9000000004,
+          "min_us": 3503177.7,
+          "p25_us": 3505870.5999999996,
+          "p75_us": 3516563.3000000003,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6971344,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 149.29999999999973,
+          "max_us": 3687.2,
+          "median_us": 3502.6,
+          "min_us": 3162.0,
+          "p25_us": 3230.4,
+          "p75_us": 3567.7999999999997,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "speedup_median": 1001.252469594016
+      },
+      "fixture": "long-dense-unchanged",
+      "kernel_over_all_frames": {
+        "mad_us": 146.19999999999982,
+        "max_us": 7850.1,
+        "median_us": 7419.4,
+        "min_us": 7074.6,
+        "p25_us": 7321.8,
+        "p75_us": 7568.6,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 119242500,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 4256.399999999441,
+          "max_us": 2869339.7,
+          "median_us": 2863826.6999999997,
+          "min_us": 2849973.0,
+          "p25_us": 2859570.3000000003,
+          "p75_us": 2865901.6,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6971344,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 178.20000000000027,
+          "max_us": 3822.7999999999997,
+          "median_us": 2871.6000000000004,
+          "min_us": 2551.7999999999997,
+          "p25_us": 2781.0,
+          "p75_us": 3313.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "d38dfe0292ddbe8074fab111b867da2db52f0b933ee9902d31608ee2a8b94b4b",
+        "speedup_median": 997.2930422064352
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 1619542500,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 8149.60000000149,
+          "max_us": 8977528.899999999,
+          "median_us": 8947981.2,
+          "min_us": 8896162.4,
+          "p25_us": 8943762.299999999,
+          "p75_us": 8956130.8,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 7571344,
+          "peak_extra_bytes": 7526353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 251.69999999999982,
+          "max_us": 7423.3,
+          "median_us": 6325.3,
+          "min_us": 5870.5,
+          "p25_us": 6076.8,
+          "p75_us": 6577.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "d38dfe0292ddbe8074fab111b867da2db52f0b933ee9902d31608ee2a8b94b4b",
+        "speedup_median": 1414.6334877397119
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 119242500,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 1816.2000000001863,
+          "max_us": 3487083.0,
+          "median_us": 3480053.8,
+          "min_us": 3474060.9,
+          "p25_us": 3479112.6999999997,
+          "p75_us": 3481870.0,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6971344,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 158.4000000000001,
+          "max_us": 4279.1,
+          "median_us": 3734.0,
+          "min_us": 3467.9,
+          "p25_us": 3622.4,
+          "p75_us": 3928.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "d38dfe0292ddbe8074fab111b867da2db52f0b933ee9902d31608ee2a8b94b4b",
+        "speedup_median": 931.9908409212641
+      },
+      "fixture": "long-dense-changing",
+      "kernel_over_all_frames": {
+        "mad_us": 214.59999999999945,
+        "max_us": 8000.0,
+        "median_us": 7336.6,
+        "min_us": 6822.5,
+        "p25_us": 7105.6,
+        "p75_us": 7526.900000000001,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 20864672,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 2290.5999999999767,
+          "max_us": 459000.89999999997,
+          "median_us": 454430.80000000005,
+          "min_us": 451787.2,
+          "p25_us": 452644.2,
+          "p75_us": 456721.4,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6932052,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 106.40000000000009,
+          "max_us": 2160.3999999999996,
+          "median_us": 1702.3,
+          "min_us": 1418.9,
+          "p25_us": 1582.2,
+          "p75_us": 1803.3000000000002,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "speedup_median": 266.9510662045468
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 208618832,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 1023.6999999999534,
+          "max_us": 1022149.6000000001,
+          "median_us": 1019869.5,
+          "min_us": 1018845.8,
+          "p25_us": 1019412.2000000001,
+          "p75_us": 1021591.1,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 7007748,
+          "peak_extra_bytes": 7002049,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 136.4000000000001,
+          "max_us": 2921.7000000000003,
+          "median_us": 2272.9,
+          "min_us": 1904.8999999999999,
+          "p25_us": 2161.5,
+          "p75_us": 2409.3,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "speedup_median": 448.70847815566015
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 20864672,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 773.7999999999302,
+          "max_us": 537998.8999999999,
+          "median_us": 536886.3,
+          "min_us": 533100.7,
+          "p25_us": 536744.9,
+          "p75_us": 537660.1,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6932052,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 165.89999999999986,
+          "max_us": 2646.7999999999997,
+          "median_us": 1957.8999999999999,
+          "min_us": 1720.3,
+          "p25_us": 1830.1000000000001,
+          "p75_us": 2123.7999999999997,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "speedup_median": 274.2153838296134
+      },
+      "fixture": "long-sparse-unchanged",
+      "kernel_over_all_frames": {
+        "mad_us": 208.4999999999991,
+        "max_us": 8007.0,
+        "median_us": 7127.7,
+        "min_us": 6661.5,
+        "p25_us": 6919.200000000001,
+        "p75_us": 7231.099999999999,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    },
+    {
+      "binary64": {
+        "field_at_allocation": {
+          "allocated_bytes": 20864672,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 1415.2999999999884,
+          "max_us": 455245.8,
+          "median_us": 451546.1,
+          "min_us": 450130.8,
+          "p25_us": 450137.4,
+          "p75_us": 453442.5,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6932052,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 87.09999999999991,
+          "max_us": 2442.4,
+          "median_us": 1905.9,
+          "min_us": 1669.6000000000001,
+          "p25_us": 1825.0,
+          "p75_us": 2017.1999999999998,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "cd1d40757124cefd45c8ec7bf15de71d887c0f66aac3d8a369538471ed437be6",
+        "speedup_median": 236.92014271472792
+      },
+      "exact_owned": {
+        "field_at_allocation": {
+          "allocated_bytes": 208618832,
+          "peak_extra_bytes": 1499,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 5132.5,
+          "max_us": 1291365.2,
+          "median_us": 1282514.6,
+          "min_us": 1277321.8,
+          "p25_us": 1277382.1,
+          "p75_us": 1284204.0,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 7007748,
+          "peak_extra_bytes": 7002049,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 172.9000000000001,
+          "max_us": 3821.8,
+          "median_us": 2253.1,
+          "min_us": 1985.6000000000001,
+          "p25_us": 2129.9,
+          "p75_us": 2447.5,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "cd1d40757124cefd45c8ec7bf15de71d887c0f66aac3d8a369538471ed437be6",
+        "speedup_median": 569.2222271536995
+      },
+      "exact_shared": {
+        "field_at_allocation": {
+          "allocated_bytes": 20864672,
+          "peak_extra_bytes": 1355,
+          "retained_bytes": 0
+        },
+        "field_at_every_frame": {
+          "mad_us": 3291.5999999999767,
+          "max_us": 548960.4,
+          "median_us": 541801.8,
+          "min_us": 535864.9,
+          "p25_us": 538510.2000000001,
+          "p75_us": 542358.2999999999,
+          "reps": 5,
+          "warmup": 1
+        },
+        "fields_allocation": {
+          "allocated_bytes": 6932052,
+          "peak_extra_bytes": 6926353,
+          "retained_bytes": 0
+        },
+        "fields_single_pass": {
+          "mad_us": 88.09999999999991,
+          "max_us": 2418.3,
+          "median_us": 1941.8,
+          "min_us": 1705.3999999999999,
+          "p25_us": 1853.7,
+          "p75_us": 2015.1000000000001,
+          "reps": 21,
+          "warmup": 3
+        },
+        "frames_agreeing": 5000,
+        "kernel_digest": "cd1d40757124cefd45c8ec7bf15de71d887c0f66aac3d8a369538471ed437be6",
+        "speedup_median": 279.0203934493769
+      },
+      "fixture": "long-sparse-changing",
+      "kernel_over_all_frames": {
+        "mad_us": 417.3000000000002,
+        "max_us": 9990.8,
+        "median_us": 7838.8,
+        "min_us": 6964.5,
+        "p25_us": 7421.5,
+        "p75_us": 8209.4,
+        "reps": 21,
+        "warmup": 3
+      },
+      "kernel_statement": "the same canonical kernel calls on the same inputs in every mode; timed once (fields input, binary64)"
+    }
+  ],
+  "b3_relational_state": [
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 85.79999999999995,
+          "max_us": 644.7,
+          "median_us": 414.5,
+          "min_us": 235.89999999999998,
+          "p25_us": 282.59999999999997,
+          "p75_us": 453.6,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 0.7000000000000028,
+            "max_us": 73.30000000000001,
+            "median_us": 57.5,
+            "min_us": 56.8,
+            "p25_us": 57.0,
+            "p75_us": 71.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 17.399999999999977,
+            "max_us": 310.3,
+            "median_us": 230.20000000000002,
+            "min_us": 182.6,
+            "p25_us": 191.29999999999998,
+            "p75_us": 240.5,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.0,
+            "max_us": 2.2,
+            "median_us": 2.0999999999999996,
+            "min_us": 2.0999999999999996,
+            "p25_us": 2.0999999999999996,
+            "p75_us": 2.0999999999999996,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 196.3,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.7999999999999998,
+            "median_us": 0.6,
+            "min_us": 0.6,
+            "p25_us": 0.6,
+            "p75_us": 0.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 1.8999999999999986,
+            "max_us": 67.19999999999999,
+            "median_us": 31.2,
+            "min_us": 28.6,
+            "p25_us": 29.0,
+            "p75_us": 31.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 13.400000000000006,
+            "max_us": 307.09999999999997,
+            "median_us": 227.5,
+            "min_us": 210.2,
+            "p25_us": 223.1,
+            "p75_us": 272.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.20000000000000284,
+            "max_us": 64.0,
+            "median_us": 32.7,
+            "min_us": 30.1,
+            "p25_us": 32.5,
+            "p75_us": 33.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 45.80000000000001,
+          "max_us": 527.6,
+          "median_us": 318.8,
+          "min_us": 258.4,
+          "p25_us": 294.7,
+          "p75_us": 387.29999999999995,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 0.5999999999999943,
+            "max_us": 138.3,
+            "median_us": 102.10000000000001,
+            "min_us": 101.3,
+            "p25_us": 101.7,
+            "p75_us": 103.2,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 10.0,
+            "max_us": 304.3,
+            "median_us": 223.79999999999998,
+            "min_us": 208.0,
+            "p25_us": 216.2,
+            "p75_us": 247.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.09999999999999964,
+            "max_us": 14.5,
+            "median_us": 2.7,
+            "min_us": 2.0999999999999996,
+            "p25_us": 2.2,
+            "p75_us": 2.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 260.5,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.0,
+            "median_us": 0.6,
+            "min_us": 0.6,
+            "p25_us": 0.6,
+            "p75_us": 0.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 4.599999999999994,
+            "max_us": 64.39999999999999,
+            "median_us": 53.5,
+            "min_us": 48.8,
+            "p25_us": 49.0,
+            "p75_us": 60.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 19.69999999999999,
+            "max_us": 404.1,
+            "median_us": 314.0,
+            "min_us": 258.09999999999997,
+            "p25_us": 275.20000000000005,
+            "p75_us": 321.90000000000003,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 20.500000000000007,
+            "max_us": 149.29999999999998,
+            "median_us": 76.4,
+            "min_us": 50.4,
+            "p25_us": 51.1,
+            "p75_us": 83.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "short-dense-unchanged"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 23.19999999999999,
+          "max_us": 327.0,
+          "median_us": 226.5,
+          "min_us": 203.0,
+          "p25_us": 218.29999999999998,
+          "p75_us": 267.6,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 3.1999999999999957,
+            "max_us": 95.1,
+            "median_us": 60.099999999999994,
+            "min_us": 56.9,
+            "p25_us": 57.2,
+            "p75_us": 70.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 20.099999999999994,
+            "max_us": 287.6,
+            "median_us": 207.9,
+            "min_us": 187.70000000000002,
+            "p25_us": 192.0,
+            "p75_us": 242.20000000000002,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.09999999999999964,
+            "max_us": 2.8,
+            "median_us": 2.7,
+            "min_us": 2.6,
+            "p25_us": 2.6,
+            "p75_us": 2.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "23992eb9777489b777e1dd58421c2a519dea69f3a5521fbd789ed8f410671063",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 210.0,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.0,
+            "median_us": 0.7,
+            "min_us": 0.7,
+            "p25_us": 0.7,
+            "p75_us": 0.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 0.30000000000000426,
+            "max_us": 55.099999999999994,
+            "median_us": 35.3,
+            "min_us": 34.8,
+            "p25_us": 35.1,
+            "p75_us": 35.800000000000004,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 19.0,
+            "max_us": 309.59999999999997,
+            "median_us": 245.3,
+            "min_us": 216.4,
+            "p25_us": 237.4,
+            "p75_us": 271.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.20000000000000284,
+            "max_us": 35.6,
+            "median_us": 29.9,
+            "min_us": 29.5,
+            "p25_us": 29.8,
+            "p75_us": 30.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 30.099999999999966,
+          "max_us": 402.5,
+          "median_us": 305.7,
+          "min_us": 247.29999999999998,
+          "p25_us": 274.6,
+          "p75_us": 328.2,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 18.799999999999997,
+            "max_us": 180.29999999999998,
+            "median_us": 127.2,
+            "min_us": 106.0,
+            "p25_us": 108.4,
+            "p75_us": 134.1,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 17.099999999999994,
+            "max_us": 276.3,
+            "median_us": 214.7,
+            "min_us": 196.3,
+            "p25_us": 197.8,
+            "p75_us": 239.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.0,
+            "max_us": 2.7,
+            "median_us": 2.7,
+            "min_us": 2.6,
+            "p25_us": 2.6,
+            "p75_us": 2.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "23992eb9777489b777e1dd58421c2a519dea69f3a5521fbd789ed8f410671063",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 261.0,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.1,
+            "median_us": 0.7,
+            "min_us": 0.7,
+            "p25_us": 0.7,
+            "p75_us": 0.7999999999999999,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 0.6000000000000014,
+            "max_us": 117.6,
+            "median_us": 48.5,
+            "min_us": 47.800000000000004,
+            "p25_us": 48.2,
+            "p75_us": 60.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 37.80000000000001,
+            "max_us": 442.79999999999995,
+            "median_us": 309.5,
+            "min_us": 245.2,
+            "p25_us": 266.5,
+            "p75_us": 320.59999999999997,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.8999999999999915,
+            "max_us": 105.4,
+            "median_us": 63.0,
+            "min_us": 50.1,
+            "p25_us": 62.5,
+            "p75_us": 66.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "short-dense-changing"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 5.200000000000003,
+          "max_us": 189.70000000000002,
+          "median_us": 123.10000000000001,
+          "min_us": 117.7,
+          "p25_us": 119.4,
+          "p75_us": 133.9,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 0.4000000000000057,
+            "max_us": 73.0,
+            "median_us": 41.300000000000004,
+            "min_us": 40.4,
+            "p25_us": 41.0,
+            "p75_us": 41.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 24.30000000000001,
+            "max_us": 325.3,
+            "median_us": 212.7,
+            "min_us": 182.8,
+            "p25_us": 192.6,
+            "p75_us": 240.1,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.0,
+            "max_us": 2.7,
+            "median_us": 2.0999999999999996,
+            "min_us": 2.0999999999999996,
+            "p25_us": 2.0999999999999996,
+            "p75_us": 2.0999999999999996,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 211.0,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 0.8999999999999999,
+            "median_us": 0.7,
+            "min_us": 0.7,
+            "p25_us": 0.7,
+            "p75_us": 0.7999999999999999,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 0.10000000000000053,
+            "max_us": 8.0,
+            "median_us": 6.6000000000000005,
+            "min_us": 6.3,
+            "p25_us": 6.5,
+            "p75_us": 6.6000000000000005,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 19.899999999999977,
+            "max_us": 318.3,
+            "median_us": 217.6,
+            "min_us": 189.1,
+            "p25_us": 197.0,
+            "p75_us": 234.60000000000002,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.7999999999999989,
+            "max_us": 12.2,
+            "median_us": 9.6,
+            "min_us": 8.5,
+            "p25_us": 8.9,
+            "p75_us": 10.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 14.200000000000017,
+          "max_us": 239.5,
+          "median_us": 163.20000000000002,
+          "min_us": 141.6,
+          "p25_us": 151.29999999999998,
+          "p75_us": 180.7,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 1.3999999999999986,
+            "max_us": 117.30000000000001,
+            "median_us": 58.8,
+            "min_us": 56.3,
+            "p25_us": 58.0,
+            "p75_us": 63.1,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 22.099999999999994,
+            "max_us": 274.2,
+            "median_us": 217.6,
+            "min_us": 194.1,
+            "p25_us": 201.5,
+            "p75_us": 248.20000000000002,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.0,
+            "max_us": 3.8,
+            "median_us": 2.0999999999999996,
+            "min_us": 2.0999999999999996,
+            "p25_us": 2.0999999999999996,
+            "p75_us": 2.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 203.1,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.09999999999999998,
+            "max_us": 0.8999999999999999,
+            "median_us": 0.7999999999999999,
+            "min_us": 0.7,
+            "p25_us": 0.7,
+            "p75_us": 0.7999999999999999,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 0.1999999999999993,
+            "max_us": 10.7,
+            "median_us": 9.799999999999999,
+            "min_us": 9.6,
+            "p25_us": 9.6,
+            "p75_us": 10.200000000000001,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 11.300000000000011,
+            "max_us": 308.6,
+            "median_us": 212.9,
+            "min_us": 200.7,
+            "p25_us": 207.6,
+            "p75_us": 253.49999999999997,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.6999999999999993,
+            "max_us": 19.0,
+            "median_us": 10.299999999999999,
+            "min_us": 9.5,
+            "p25_us": 10.0,
+            "p75_us": 11.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "short-sparse-unchanged"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 9.099999999999994,
+          "max_us": 201.8,
+          "median_us": 119.7,
+          "min_us": 110.5,
+          "p25_us": 111.3,
+          "p75_us": 169.9,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 0.5,
+            "max_us": 76.8,
+            "median_us": 35.4,
+            "min_us": 34.7,
+            "p25_us": 35.0,
+            "p75_us": 36.1,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 9.399999999999977,
+            "max_us": 269.59999999999997,
+            "median_us": 192.7,
+            "min_us": 182.7,
+            "p25_us": 184.0,
+            "p75_us": 231.3,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.10000000000000009,
+            "max_us": 4.199999999999999,
+            "median_us": 3.8,
+            "min_us": 3.5,
+            "p25_us": 3.7,
+            "p75_us": 3.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "2880d91501878e56f27b6bb54fb2f7e043678ea4fe07c16c3eb6c7874ca4936f",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 205.3,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 0.8999999999999999,
+            "median_us": 0.7,
+            "min_us": 0.6,
+            "p25_us": 0.6,
+            "p75_us": 0.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 0.10000000000000053,
+            "max_us": 11.8,
+            "median_us": 6.5,
+            "min_us": 6.3999999999999995,
+            "p25_us": 6.5,
+            "p75_us": 6.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 24.400000000000006,
+            "max_us": 324.7,
+            "median_us": 211.8,
+            "min_us": 186.60000000000002,
+            "p25_us": 195.89999999999998,
+            "p75_us": 251.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.1999999999999993,
+            "max_us": 13.0,
+            "median_us": 8.8,
+            "min_us": 7.0,
+            "p25_us": 8.7,
+            "p75_us": 9.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 4.300000000000011,
+          "max_us": 246.49999999999997,
+          "median_us": 150.29999999999998,
+          "min_us": 143.29999999999998,
+          "p25_us": 147.5,
+          "p75_us": 176.60000000000002,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 9.999999999999993,
+            "max_us": 124.20000000000002,
+            "median_us": 71.5,
+            "min_us": 58.6,
+            "p25_us": 61.4,
+            "p75_us": 76.19999999999999,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 13.599999999999994,
+            "max_us": 367.59999999999997,
+            "median_us": 218.5,
+            "min_us": 204.4,
+            "p25_us": 208.4,
+            "p75_us": 315.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.0,
+            "max_us": 2.7,
+            "median_us": 2.7,
+            "min_us": 2.6,
+            "p25_us": 2.6,
+            "p75_us": 2.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 256666,
+            "peak_extra_bytes": 256506,
+            "retained_bytes": 256506
+          }
+        },
+        "kernel_digest": "2880d91501878e56f27b6bb54fb2f7e043678ea4fe07c16c3eb6c7874ca4936f",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 214.20000000000002,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 0.7999999999999999,
+            "median_us": 0.5,
+            "min_us": 0.5,
+            "p25_us": 0.5,
+            "p75_us": 0.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 0.09999999999999964,
+            "max_us": 8.3,
+            "median_us": 7.6,
+            "min_us": 7.5,
+            "p25_us": 7.5,
+            "p75_us": 7.700000000000001,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 13.700000000000017,
+            "max_us": 364.1,
+            "median_us": 221.8,
+            "min_us": 202.6,
+            "p25_us": 209.0,
+            "p75_us": 297.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 0.40000000000000213,
+            "max_us": 44.3,
+            "median_us": 16.2,
+            "min_us": 15.2,
+            "p25_us": 15.8,
+            "p75_us": 16.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "short-sparse-changing"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 104.09999999999991,
+          "max_us": 3093.7,
+          "median_us": 2723.4,
+          "min_us": 2419.4,
+          "p25_us": 2619.3,
+          "p75_us": 2803.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 36.60000000000002,
+            "max_us": 825.8000000000001,
+            "median_us": 696.2,
+            "min_us": 627.3000000000001,
+            "p25_us": 659.8,
+            "p75_us": 732.8000000000001,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 108.69999999999959,
+            "max_us": 2481.9,
+            "median_us": 2153.2999999999997,
+            "min_us": 1943.4,
+            "p25_us": 2084.1000000000004,
+            "p75_us": 2330.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.7000000000000028,
+            "max_us": 84.0,
+            "median_us": 33.0,
+            "min_us": 27.3,
+            "p25_us": 32.199999999999996,
+            "p75_us": 33.599999999999994,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2238.1000000000004,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.9,
+            "median_us": 1.7999999999999998,
+            "min_us": 1.7,
+            "p25_us": 1.7,
+            "p75_us": 1.7999999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 28.799999999999955,
+            "max_us": 481.7,
+            "median_us": 335.79999999999995,
+            "min_us": 307.0,
+            "p25_us": 323.3,
+            "p75_us": 408.3,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 79.19999999999982,
+            "max_us": 2944.7000000000003,
+            "median_us": 2573.9,
+            "min_us": 2316.0,
+            "p25_us": 2451.2000000000003,
+            "p75_us": 2614.7000000000003,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 42.099999999999966,
+            "max_us": 488.90000000000003,
+            "median_us": 413.40000000000003,
+            "min_us": 322.8,
+            "p25_us": 367.8,
+            "p75_us": 454.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 168.30000000000018,
+          "max_us": 3869.3,
+          "median_us": 3372.6,
+          "min_us": 3001.5,
+          "p25_us": 3194.3,
+          "p75_us": 3531.0,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 57.80000000000018,
+            "max_us": 1403.0,
+            "median_us": 1316.0,
+            "min_us": 1148.6000000000001,
+            "p25_us": 1225.5,
+            "p75_us": 1351.7,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 57.09999999999991,
+            "max_us": 2751.7000000000003,
+            "median_us": 2361.4,
+            "min_us": 2125.7,
+            "p25_us": 2258.3999999999996,
+            "p75_us": 2413.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.3999999999999986,
+            "max_us": 56.0,
+            "median_us": 27.2,
+            "min_us": 26.599999999999998,
+            "p25_us": 26.9,
+            "p75_us": 27.900000000000002,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2424.6,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.2999999999999998,
+            "max_us": 3.9,
+            "median_us": 2.5,
+            "min_us": 2.0,
+            "p25_us": 2.2,
+            "p75_us": 2.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 66.10000000000002,
+            "max_us": 1009.5,
+            "median_us": 640.0,
+            "min_us": 534.5,
+            "p25_us": 573.9,
+            "p75_us": 698.1,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 125.29999999999973,
+            "max_us": 3319.9,
+            "median_us": 3064.6,
+            "min_us": 2706.8,
+            "p25_us": 2881.1000000000004,
+            "p75_us": 3136.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 34.000000000000114,
+            "max_us": 805.1,
+            "median_us": 612.8000000000001,
+            "min_us": 565.6,
+            "p25_us": 586.5,
+            "p75_us": 680.5,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "long-dense-unchanged"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 109.0,
+          "max_us": 3729.2,
+          "median_us": 2770.9,
+          "min_us": 2563.9,
+          "p25_us": 2674.6,
+          "p75_us": 2879.9,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 31.299999999999955,
+            "max_us": 819.9000000000001,
+            "median_us": 660.3,
+            "min_us": 594.4,
+            "p25_us": 638.2,
+            "p75_us": 708.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 46.59999999999991,
+            "max_us": 2501.5,
+            "median_us": 2116.0,
+            "min_us": 1994.5000000000002,
+            "p25_us": 2080.0,
+            "p75_us": 2164.3,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 1.2000000000000028,
+            "max_us": 57.800000000000004,
+            "median_us": 34.7,
+            "min_us": 32.4,
+            "p25_us": 33.599999999999994,
+            "p75_us": 36.900000000000006,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "d38dfe0292ddbe8074fab111b867da2db52f0b933ee9902d31608ee2a8b94b4b",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2246.6,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 11.7,
+            "median_us": 1.5,
+            "min_us": 1.4,
+            "p25_us": 1.5,
+            "p75_us": 1.5999999999999999,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 45.69999999999993,
+            "max_us": 700.4,
+            "median_us": 383.09999999999997,
+            "min_us": 324.7,
+            "p25_us": 337.40000000000003,
+            "p75_us": 424.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 85.80000000000018,
+            "max_us": 3087.2,
+            "median_us": 2629.7,
+            "min_us": 2388.8999999999996,
+            "p25_us": 2557.4,
+            "p75_us": 2715.5,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 24.700000000000045,
+            "max_us": 422.9,
+            "median_us": 376.9,
+            "min_us": 331.4,
+            "p25_us": 354.3,
+            "p75_us": 401.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 128.0999999999999,
+          "max_us": 4275.6,
+          "median_us": 3624.7,
+          "min_us": 3260.4,
+          "p25_us": 3451.8,
+          "p75_us": 3745.2000000000003,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 60.600000000000136,
+            "max_us": 1402.7,
+            "median_us": 1289.1000000000001,
+            "min_us": 1152.0,
+            "p25_us": 1228.5,
+            "p75_us": 1326.2,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 90.50000000000045,
+            "max_us": 2767.7000000000003,
+            "median_us": 2288.7,
+            "min_us": 2115.7,
+            "p25_us": 2229.0,
+            "p75_us": 2477.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.3000000000000007,
+            "max_us": 29.099999999999998,
+            "median_us": 27.5,
+            "min_us": 26.5,
+            "p25_us": 27.3,
+            "p75_us": 27.900000000000002,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "d38dfe0292ddbe8074fab111b867da2db52f0b933ee9902d31608ee2a8b94b4b",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2322.6,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.7999999999999998,
+            "median_us": 1.4,
+            "min_us": 1.3,
+            "p25_us": 1.4,
+            "p75_us": 1.5,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 61.30000000000007,
+            "max_us": 1172.8000000000002,
+            "median_us": 662.5,
+            "min_us": 552.1999999999999,
+            "p25_us": 601.1999999999999,
+            "p75_us": 713.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 61.30000000000018,
+            "max_us": 3220.4,
+            "median_us": 2985.1,
+            "min_us": 2896.7,
+            "p25_us": 2931.7000000000003,
+            "p75_us": 3154.6,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 47.19999999999993,
+            "max_us": 864.4,
+            "median_us": 631.3,
+            "min_us": 552.8,
+            "p25_us": 599.6,
+            "p75_us": 698.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "long-dense-changing"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 133.5999999999999,
+          "max_us": 2105.1,
+          "median_us": 1733.2,
+          "min_us": 1472.5,
+          "p25_us": 1628.8999999999999,
+          "p75_us": 1870.1,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 35.30000000000001,
+            "max_us": 504.0,
+            "median_us": 400.8,
+            "min_us": 361.90000000000003,
+            "p25_us": 367.5,
+            "p75_us": 448.2,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 98.10000000000036,
+            "max_us": 2505.6000000000004,
+            "median_us": 2184.7,
+            "min_us": 1953.5,
+            "p25_us": 2078.0,
+            "p75_us": 2274.1,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.8999999999999986,
+            "max_us": 47.6,
+            "median_us": 33.9,
+            "min_us": 31.900000000000002,
+            "p25_us": 33.4,
+            "p75_us": 34.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2161.9000000000005,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 1.9,
+            "median_us": 1.7,
+            "min_us": 1.7,
+            "p25_us": 1.7,
+            "p75_us": 1.7999999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 1.6000000000000085,
+            "max_us": 89.7,
+            "median_us": 75.7,
+            "min_us": 67.5,
+            "p25_us": 74.6,
+            "p75_us": 77.89999999999999,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 65.5,
+            "max_us": 2420.2,
+            "median_us": 2237.6000000000004,
+            "min_us": 2094.6,
+            "p25_us": 2209.2000000000003,
+            "p75_us": 2303.1000000000004,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 11.599999999999994,
+            "max_us": 155.6,
+            "median_us": 105.3,
+            "min_us": 92.80000000000001,
+            "p25_us": 100.8,
+            "p75_us": 120.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 59.100000000000136,
+          "max_us": 2623.9,
+          "median_us": 1861.7,
+          "min_us": 1688.8,
+          "p25_us": 1804.0,
+          "p75_us": 1955.3000000000002,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 58.0,
+            "max_us": 862.9,
+            "median_us": 717.9000000000001,
+            "min_us": 612.8000000000001,
+            "p25_us": 686.8,
+            "p75_us": 781.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 81.0,
+            "max_us": 2605.7,
+            "median_us": 2211.1,
+            "min_us": 2127.1,
+            "p25_us": 2189.5,
+            "p75_us": 2356.8,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.8000000000000043,
+            "max_us": 67.10000000000001,
+            "median_us": 33.1,
+            "min_us": 27.1,
+            "p25_us": 32.199999999999996,
+            "p75_us": 33.599999999999994,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2372.7000000000003,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 2.0999999999999996,
+            "median_us": 1.7999999999999998,
+            "min_us": 1.7,
+            "p25_us": 1.7999999999999998,
+            "p75_us": 1.7999999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 15.800000000000011,
+            "max_us": 178.4,
+            "median_us": 127.0,
+            "min_us": 97.80000000000001,
+            "p25_us": 100.3,
+            "p75_us": 137.79999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 107.89999999999964,
+            "max_us": 2799.7999999999997,
+            "median_us": 2499.7000000000003,
+            "min_us": 2163.1,
+            "p25_us": 2314.0,
+            "p75_us": 2590.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 21.799999999999983,
+            "max_us": 217.4,
+            "median_us": 156.1,
+            "min_us": 125.6,
+            "p25_us": 131.2,
+            "p75_us": 167.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "long-sparse-unchanged"
+    },
+    {
+      "binary64": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 107.90000000000009,
+          "max_us": 1678.6,
+          "median_us": 1491.3999999999999,
+          "min_us": 1239.2,
+          "p25_us": 1340.5,
+          "p75_us": 1577.8000000000002,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 19.799999999999955,
+            "max_us": 463.3,
+            "median_us": 379.2,
+            "min_us": 356.2,
+            "p25_us": 369.8,
+            "p75_us": 412.3,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 59.90000000000009,
+            "max_us": 2383.8,
+            "median_us": 2113.5,
+            "min_us": 1973.0,
+            "p25_us": 2053.6,
+            "p75_us": 2163.5,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.5,
+            "max_us": 37.5,
+            "median_us": 28.5,
+            "min_us": 27.7,
+            "p25_us": 28.099999999999998,
+            "p75_us": 29.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "cd1d40757124cefd45c8ec7bf15de71d887c0f66aac3d8a369538471ed437be6",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2115.9,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.09999999999999987,
+            "max_us": 2.0999999999999996,
+            "median_us": 1.7999999999999998,
+            "min_us": 1.7,
+            "p25_us": 1.7,
+            "p75_us": 1.7999999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 6.400000000000006,
+            "max_us": 148.6,
+            "median_us": 80.3,
+            "min_us": 60.8,
+            "p25_us": 75.1,
+            "p75_us": 89.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 100.30000000000018,
+            "max_us": 2510.2000000000003,
+            "median_us": 2196.2000000000003,
+            "min_us": 2012.7,
+            "p25_us": 2150.3999999999996,
+            "p75_us": 2346.5,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 5.700000000000003,
+            "max_us": 168.70000000000002,
+            "median_us": 101.10000000000001,
+            "min_us": 94.4,
+            "p25_us": 96.60000000000001,
+            "p75_us": 121.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "exact_shared": {
+        "fields_single_pass_snapshots": {
+          "mad_us": 401.9999999999998,
+          "max_us": 4837.400000000001,
+          "median_us": 2345.7,
+          "min_us": 1859.9,
+          "p25_us": 1981.0000000000002,
+          "p75_us": 2981.2,
+          "reps": 21,
+          "warmup": 3
+        },
+        "forward_fill": {
+          "build_table": {
+            "mad_us": 63.89999999999998,
+            "max_us": 843.0999999999999,
+            "median_us": 769.7,
+            "min_us": 620.0999999999999,
+            "p25_us": 667.1,
+            "p75_us": 801.0,
+            "reps": 21,
+            "warmup": 3
+          },
+          "materialize_snapshots_all_rows": {
+            "mad_us": 63.79999999999973,
+            "max_us": 2626.5,
+            "median_us": 2303.6,
+            "min_us": 2100.5,
+            "p25_us": 2239.8,
+            "p75_us": 2346.8999999999996,
+            "reps": 21,
+            "warmup": 3
+          },
+          "read_kernel_inputs_all_rows": {
+            "mad_us": 0.7999999999999972,
+            "max_us": 51.199999999999996,
+            "median_us": 34.0,
+            "min_us": 32.1,
+            "p25_us": 33.5,
+            "p75_us": 35.9,
+            "reps": 21,
+            "warmup": 3
+          },
+          "table_allocation": {
+            "allocated_bytes": 2560666,
+            "peak_extra_bytes": 2560506,
+            "retained_bytes": 2560506
+          }
+        },
+        "kernel_digest": "cd1d40757124cefd45c8ec7bf15de71d887c0f66aac3d8a369538471ed437be6",
+        "retained": {
+          "derived_snapshot_materialization_median_us": 2356.4,
+          "maintain_state_frame_advance_only": {
+            "mad_us": 0.0,
+            "max_us": 2.0999999999999996,
+            "median_us": 1.7999999999999998,
+            "min_us": 1.7,
+            "p25_us": 1.7,
+            "p75_us": 1.7999999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes": {
+            "mad_us": 16.799999999999983,
+            "max_us": 164.0,
+            "median_us": 124.6,
+            "min_us": 100.3,
+            "p25_us": 105.19999999999999,
+            "p75_us": 137.4,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_materialize_snapshots": {
+            "mad_us": 114.90000000000009,
+            "max_us": 2782.1,
+            "median_us": 2481.0,
+            "min_us": 2207.2,
+            "p25_us": 2330.2000000000003,
+            "p75_us": 2547.7999999999997,
+            "reps": 21,
+            "warmup": 3
+          },
+          "process_changes_and_read_kernel_inputs": {
+            "mad_us": 4.099999999999994,
+            "max_us": 185.3,
+            "median_us": 155.3,
+            "min_us": 117.6,
+            "p25_us": 147.89999999999998,
+            "p75_us": 159.29999999999998,
+            "reps": 21,
+            "warmup": 3
+          },
+          "state_allocation": {
+            "allocated_bytes": 1146,
+            "peak_extra_bytes": 986,
+            "retained_bytes": 986
+          }
+        }
+      },
+      "fixture": "long-sparse-changing"
+    }
+  ],
+  "fixtures": [
+    {
+      "binary64_content_id": "cafcebdca99a7737dcf73d694eb1be47b9378e523d704ad45c51fd5590b4d449",
+      "exact_content_id": "6e7c82affeca28f9531abf5d1e983593d9c5bc1d8d50019d2b63af39955913cd",
+      "frames": 500,
+      "name": "short-dense-unchanged",
+      "observations": 2500
+    },
+    {
+      "binary64_content_id": "c9994308df591f886f12fae69818437155242dbc728aee4d40e88af1050ccd2e",
+      "exact_content_id": "998c828ed8205925774f1bffa382b3cc1c9ac89780e2ca275983ff2c4f642509",
+      "frames": 500,
+      "name": "short-dense-changing",
+      "observations": 2500
+    },
+    {
+      "binary64_content_id": "3b013bae4586d5b730ad76e99b7ae2765ddc98f560eb23ce8b70764a93d118d4",
+      "exact_content_id": "8c5bddb372715281d3d7e59a41319b0938c2b756cd2cbead7ae9bb8c617e58a1",
+      "frames": 500,
+      "name": "short-sparse-unchanged",
+      "observations": 306
+    },
+    {
+      "binary64_content_id": "2120e492c176ccc53be00c3e99615217a3b9220e3b38500e85f08d99140f5cd9",
+      "exact_content_id": "46fdb09d7e47bf5064c6b7e53fd8d16a1506190ee690ffda31e6bd46aa9ec94e",
+      "frames": 500,
+      "name": "short-sparse-changing",
+      "observations": 306
+    },
+    {
+      "binary64_content_id": "9c52fad887afc18bdeed32c965b5ded139a35333bd9f06bc644eec8d14713f2c",
+      "exact_content_id": "ea427d1a9f571bd4c099c473babcc88135fe222d8aeb4241be9023704df60ecd",
+      "frames": 5000,
+      "name": "long-dense-unchanged",
+      "observations": 25000
+    },
+    {
+      "binary64_content_id": "d9feacf1b93ba24a800d24a2ec53f8d2d510b418946ad239f33c61a0c898eb66",
+      "exact_content_id": "20053dac888be2cf911fbfd6c495ac010dad8caf1e6f03a79952adab1f0fb331",
+      "frames": 5000,
+      "name": "long-dense-changing",
+      "observations": 25000
+    },
+    {
+      "binary64_content_id": "2f1f101cb1ac9702a8598bc3404caddb4951736b69577c482950fe7d50eb786b",
+      "exact_content_id": "327492a5bf81b2d9bbe717294d0b38b972ded942d69ff5dab4ac008a67bd9a73",
+      "frames": 5000,
+      "name": "long-sparse-unchanged",
+      "observations": 3154
+    },
+    {
+      "binary64_content_id": "394a55decec868fa97ea06a3eee2a320621328ad1298aa09439a6a925c8a6bb3",
+      "exact_content_id": "071c0f658a7c58640f9ab085f0186fc49d005778b22be85ee9a9b7baadb0e04f",
+      "frames": 5000,
+      "name": "long-sparse-changing",
+      "observations": 3154
+    }
+  ],
+  "kernel_consistency": {
+    "long-dense-changing": {
+      "all_identical": true,
+      "digest": "d38dfe0292ddbe8074fab111b867da2db52f0b933ee9902d31608ee2a8b94b4b",
+      "implementations": 5
+    },
+    "long-dense-unchanged": {
+      "all_identical": true,
+      "digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+      "implementations": 5
+    },
+    "long-sparse-changing": {
+      "all_identical": true,
+      "digest": "cd1d40757124cefd45c8ec7bf15de71d887c0f66aac3d8a369538471ed437be6",
+      "implementations": 5
+    },
+    "long-sparse-unchanged": {
+      "all_identical": true,
+      "digest": "b71f96ded3b0aabe569eb3ea2d92be08e28d8b32023a1c14b8f30430a71e91b0",
+      "implementations": 5
+    },
+    "short-dense-changing": {
+      "all_identical": true,
+      "digest": "23992eb9777489b777e1dd58421c2a519dea69f3a5521fbd789ed8f410671063",
+      "implementations": 5
+    },
+    "short-dense-unchanged": {
+      "all_identical": true,
+      "digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+      "implementations": 5
+    },
+    "short-sparse-changing": {
+      "all_identical": true,
+      "digest": "2880d91501878e56f27b6bb54fb2f7e043678ea4fe07c16c3eb6c7874ca4936f",
+      "implementations": 5
+    },
+    "short-sparse-unchanged": {
+      "all_identical": true,
+      "digest": "90029c5d6fa04322f55605007fa22a6ffae04d040ce408b7a5c814b2389492fc",
+      "implementations": 5
+    }
+  },
+  "label": "SIMULATED fixtures; benchmark of this implementation on one machine"
+}

@@ -1,0 +1,29 @@
+[workspace]
+members = ["."]
+resolver = "2"
+
+[package]
+name = "abr-exact-compute-benchmark"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Benchmarks of numerical fidelity (exact rational observations), field-reconstruction efficiency and canonical Kernel V9 consistency. SIMULATED fixtures. Development only."
+license = "Apache-2.0"
+
+[lib]
+name = "exactbench"
+path = "src/lib.rs"
+
+[dependencies]
+# Canonical Kernel V9, frozen: the public abr-kernel repository at the authorized commit. Used unmodified.
+abr-kernel = { git = "https://github.com/Relational-Relativity-Corporation/abr-kernel", rev = "1c1ef70a69b3175a2df0458d0ebf1f71475a3d62" }
+serde = { version = "1", features = ["derive"] }
+# float_roundtrip: JSON numbers parse to exactly the binary64 that was written (record identity).
+serde_json = { version = "1", features = ["float_roundtrip"] }
+sha2 = "0.10"
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = false
+debug = false
