@@ -145,17 +145,13 @@ show the representation effect and columns show the architecture effect.
   is not established.
 - **Design attribution:** the exact-value and single-pass designs follow the
   private IRRS reference (exact-representation branch, commit `2d926f0`).
-  - This repository's implementation was written independently and contains
-    no IRRS source.
-  - A local cross-check, not part of this repository, found identical exact
-    values (61,920) and identical whole fields (22,000 frames) across all 8
-    fixtures.
-  - Whether publishing a derived design needs Origin authorization is
-    Origin's decision.
-- **Copyright holder:** "Metatron Dynamics, Inc." (taken from abr-kernel's
-  license) awaits Origin confirmation.
-- **Environment disclosure:** `environment.json` records the machine's CPU
-  and memory. Whether to publish it is Origin's decision.
+  This repository's implementation was written independently and contains no
+  IRRS source. A local cross-check, not part of this repository, found
+  identical exact values (61,920) and identical whole fields (22,000 frames)
+  across all 8 fixtures. Origin authorized publication on 2026-10-31.
+- **Resolved by Origin (2026-10-31):** the license is Apache-2.0, the
+  copyright holder is Metatron Dynamics, Inc., and the hardware details in
+  `environment.json` are published as provenance.
 - **Kernel licensing metadata:** the kernel's `Cargo.toml` declares no
   `license` field; its LICENSE file is Apache-2.0.
 - **Build requirement:** building fetches abr-kernel from GitHub at the
@@ -166,7 +162,7 @@ show the representation effect and columns show the architecture effect.
 
 ## Dependency and licensing inventory
 
-This repository is Apache-2.0 (approved by Origin). It has three direct
+This repository is Apache-2.0 (Origin approved), Copyright 2026 Metatron Dynamics, Inc. It has three direct
 dependencies:
 
 | Crate | Version | License | Source |

@@ -1,7 +1,7 @@
 # abr-exact-compute-benchmark
 
-Status: development only, not published. All fixtures are SIMULATED; nothing
-here is empirical evidence.
+Status: published with Origin authorization (2026-10-31). All fixtures are
+SIMULATED; nothing here is empirical evidence.
 
 This repository measures three properties of relational processing, each
 separately:
@@ -103,5 +103,5 @@ No other repository or path is needed.
 
 ## License
 
-Apache License 2.0; see [`LICENSE`](LICENSE). The copyright holder awaits
-Origin confirmation (see `docs/CLAIMS.md`).
+Apache License 2.0; see [`LICENSE`](LICENSE). Copyright 2026 Metatron
+Dynamics, Inc.
