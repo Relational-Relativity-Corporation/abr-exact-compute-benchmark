@@ -1,0 +1,2 @@
+# Keep LF everywhere: fixtures and results are checked byte for byte (gen_fixtures check, SHA256SUMS).
+* text=auto eol=lf
